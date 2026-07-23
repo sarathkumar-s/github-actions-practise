@@ -5,7 +5,7 @@ on:
       debug:
         type: boolean
         default: false
-run-name: My custom workflow run name - ${{ runner.os }}
+run-name: 06 - Contexts | DEBUG - ${{ inputs.debug }}
 
 jobs:
   echo-data:
