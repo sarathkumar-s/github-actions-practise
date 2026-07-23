@@ -13,6 +13,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v7
       with:
-        node-version: '24.x'     
-    - run: npm ci
+        node-version: '24.x'
+    - name: Install Dependencies  
+      run: npm ci
       working-directory: 04-using-actions/react-app
